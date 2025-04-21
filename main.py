@@ -13,15 +13,6 @@ async def botinfo(ctx:commands.Context):
     nome = ctx.author.name
     await ctx.reply(f"Olá,{nome}! eu sou um bot de criado pelo joão! Estou aqui para ajudar você com suas necessidades de automação interação no Discord. Se precisar de algo, é só me chamar!")
     
-@bot.command()
-async def gay(ctx:commands.Context):
-    nome = ctx.author.name
-    await ctx.reply(f"@everyone o {nome} é o mais gay do grupo!")
-
-@bot.command()
-async def ping(ctx:commands.Context):
-    await ctx.reply("Pong!")
-
    
 @bot.command()
 async def avatar(ctx: commands.Context, member: commands.MemberConverter = None):
