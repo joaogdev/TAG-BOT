@@ -106,4 +106,4 @@ async def tagwtds(ctx:commands.Context):
     await ctx.reply("https://discord.gg/wtuds") 
     
     
-bot.run("MTM2MzM0MDU3NTU1ODA3ODU1Ng.GuFhCf.jitS1GbB3S8drfC_JCwVARtk96kvsNXuLXRVbk")
+bot.run("token do seu bot")
